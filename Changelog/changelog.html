@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog</title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .outline {
+        border: 2px black solid;
+        height: auto;
+        width: 650px;
+        border-radius: 20px;
+    }
+
+    .header1 {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    .header2 {
+
+        text-align: center;
+        font-size: 15px;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 15px;
+
+    }
+
+    .logs {
+        margin-top: 50px;
+        display: flex;
+    }
+
+    .date {
+        border-right-style: solid;
+        border-width: 2px;
+
+        height: auto;
+        width: 200px;
+        text-align: right;
+        flex: 40%;
+    }
+
+    .change {
+        height: auto;
+        width: 450px;
+        flex: 60%;
+
+    }
+
+    .date ul {
+        list-style-type: none;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+    .date ul li {
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+
+    .date ul li::after {
+        content: "";
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        left: 214px;
+    }
+
+    .change ul {
+        list-style-type: none;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    .change ul li {
+
+        margin-bottom: 30px;
+
+    }
+
+    .link {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .link a {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+</style>
+
+<body>
+
+    <div class="outline">
+
+        <p class="header1">Changelog</p><br>
+
+        <p class="header2">Here's everything we have shipped in the past few days</p>
+
+        <div class="logs">
+            <div class="date">
+                <ul>
+                    <li>September 3, 2024</li>
+                    <li>August 28, 2024</li>
+                    <li>August 25, 2024</li>
+                    <li>August 22, 2024</li>
+                    <li>August 15, 2024</li>
+                    <li>August 10, 2024</li>
+                    <li>August 1, 2024</li>
+                </ul>
+            </div>
+
+            <div class="change">
+                <ul>
+                    <li>Announcing Projects on Frontend Roadmap</li>
+                    <li>Build your learning habits with learning streaks</li>
+                    <li>Git and GitHub Roadmap</li>
+                    <li>Submit your project solution and get feedback</li>
+                    <li>Backend Project Ideas</li>
+                    <li>Redis roadmap</li>
+                    <li>Changelog page to help you stay in the loop</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="link"> <a href="">Visit Complete Changelog</a></div>
+    </div>
+</body>
+
+</html>
